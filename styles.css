@@ -1,0 +1,112 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+nav {
+    padding: 10px 0 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    border-bottom: 1px solid #ccc;
+
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+     color: #1e90ff;
+     font-size: 14px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1{
+    color: #efe9e9;
+}
+
+h2 {
+    color: #333;
+}
+
+.placeholder {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/*
+footer a:visited {
+  color: #1e90ff;
+}
+*/
+
+
+footer a:hover {
+  color: #1e90ff; /* Cambia a un azul claro al pasar el mouse */
+}
+
+footer a:active {
+  color: #1e90ff; /* También azul cuando se hace clic */
+}
